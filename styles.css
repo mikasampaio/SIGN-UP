@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagem {
+    display: inline-block;
+    position: absolute;
+    width: 29%;
+    height: 100vh;
+    background: rgba(137, 98, 245, 1);
+}
+
+.girl {
+    position: absolute;
+    width: 465px;
+    left: 130px;
+    bottom: 25px;
+}
+
+.section-text {
+    display: inline-block;
+    width: 70%;
+    margin-left: 28%;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin: 61px 0 18px 0;
+}
+
+.botaos {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-link {
+    text-decoration: none;
+    width: 50%;
+}
+
+.login {
+    color: #9D9D9D;
+    width: 210px;
+    height: 45px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid rgba(166, 166, 166, 1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.login:hover {
+    background: rgba(166, 166, 166, 1);
+    color: white;
+    transition: .5s;
+}
+
+.logo-facebook {
+    width: 32px;
+    height: 30px;
+}
+
+.or {
+    margin: 18px 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #A6A6A6;
+}
+
+input {
+    margin-bottom: 40px;
+    width: 249px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A6A6A6;
+    border: 1px solid #B8B8B8;
+    border-top: none;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+}
+
+.account {
+    margin-bottom: 15px;
+    width: 210px;
+    height: 37px;
+    background: #8962F5;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.account:hover {
+    background: #4c3884;
+}
+
+.question {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #894FF6;
+}
