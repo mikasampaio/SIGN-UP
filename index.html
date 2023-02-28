@@ -24,7 +24,9 @@
             <h1>Create Account</h1>
 
             <div class="botaos">
-                <a class="button-link" href="https://accounts.google.com/v3/signin/identifier?dsh=S1846188856%3A1677265392039866&authuser=0&continue=http%3A%2F%2Fsupport.google.com%2Faccounts%2Fanswer%2F27441%3Fhl%3Dpt-BR&ec=GAlAdQ&hl=pt-BR&flowName=GlifWebSignIn&flowEntry=AddSession"
+
+                <a class="button-link"
+                    href="https://accounts.google.com/v3/signin/identifier?dsh=S1846188856%3A1677265392039866&authuser=0&continue=http%3A%2F%2Fsupport.google.com%2Faccounts%2Fanswer%2F27441%3Fhl%3Dpt-BR&ec=GAlAdQ&hl=pt-BR&flowName=GlifWebSignIn&flowEntry=AddSession"
                     target="_blank">
                     <button class="login">
                         <img src="./assets/Google__G__Logo 1.png" alt="logo-google">
@@ -32,7 +34,8 @@
                     </button>
                 </a>
 
-                <a class="button-link" href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc3MzU5MDE4LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"
+                <a class="button-link"
+                    href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc3MzU5MDE4LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"
                     target="_blank">
                     <button class="login">
                         <img class="logo-facebook" src="./assets/Facebook_f_logo_(2019).svg.webp" alt="logo-facebook">
@@ -41,17 +44,20 @@
                 </a>
             </div>
 
-            <p class="or">- OR -</p>
+            <form action="">
+                <p class="or">- OR -</p>
 
-            <input type="text" placeholder="Full name">
-            <br>
-            <input type="email" placeholder="Email address">
-            <br>
-            <input type="password" placeholder="Password">
-            <br>
+                <input required type="text" placeholder="Full name">
+                <br>
+                <input required type="email" placeholder="Email address">
+                <br>
+                <input required type="password" placeholder="Password">
+                <br>
 
-            <button class="account">Create Account</button>
-            <p class="question">Already have an account? <a href="">Login</a></p>
+                <button type="submit" class="account">Create Account</button>
+                
+                <p class="question">Already have an account? <a href="">Login</a></p>
+            </form>
         </div>
     </section>
 
