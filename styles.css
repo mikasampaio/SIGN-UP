@@ -127,6 +127,8 @@ a {
     color: #894FF6;
 }
 
+
+
 @media screen and (max-width:1000px) {
     body {
         margin: 0;
@@ -167,5 +169,15 @@ a {
         margin-bottom: 10px;
     }
 
-    
+
+}
+
+@media screen and (min-width:450px) and (max-width:999px) {
+    .botaos {
+        display: flex;
+    }
+
+    input {
+        width: 350px;
+    }
 }
