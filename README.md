@@ -11,5 +11,8 @@
 <h2>Sobre o projeto</h2>
 <p>O projeto foi inspirado pelo site Figma e realizado com as tecnologias de HTML, CSS. Além disso, é aplicado responsividade no site, ou seja adapta-se tanto para smartphones e tablets quanto para notebooks. Assim, é evidente um formulário no início da página, na qual deve preencher as informações e inscrever-se.  </p>
 
+<h2>Link do projeto</h2>
+<a>https://mikasampaio.github.io/SIGN-UP/</a>
+
 <h2>Contato</h2>
 <a href="www.linkedin.com/in/mikaeli-pereira">Linkedin</a>
